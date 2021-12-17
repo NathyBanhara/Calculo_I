@@ -3,7 +3,7 @@ def equacao(x):
     return e**(-x) - 2*(x**2) + 4
 
 def sinais(x):
-    if x > 0:
+    if x >= 0:
         return True
     return False
 
